@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    reactStrictMode: false,
     images: {
-        domains: ["links.papareact.com"]
+        domains: ["links.papareact.com", "cloud.appwrite.id"]
     }
 };
 
